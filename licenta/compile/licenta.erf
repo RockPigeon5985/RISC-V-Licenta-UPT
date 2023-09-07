@@ -1,0 +1,7 @@
+WARNING DAGGEN_0523: "The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available."
+MESSAGE "File: C:/My_Designs/licenta/licenta/src/Processor.vhd" 
+MESSAGE "Compile Entity "RISC_V_Processor"" 
+MESSAGE "Compile Architecture "Behavioral" of Entity "RISC_V_Processor"" 
+MESSAGE "Compile Entity "RISC_V_Processor_Testbench"" 
+MESSAGE "Compile Architecture "tb_arch" of Entity "RISC_V_Processor_Testbench"" 
+SUCCESS "Compile success 0 Errors 0 Warnings  Analysis time :  62.0 [ms]" 

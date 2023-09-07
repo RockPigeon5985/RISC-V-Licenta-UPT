@@ -1,0 +1,5 @@
+InstructionMemory_TB ENTITY
+Registers_TB ENTITY
+RISC_V_Processor_Testbench ENTITY
+DataMemory_TB ENTITY
+ALU_Testbench ENTITY

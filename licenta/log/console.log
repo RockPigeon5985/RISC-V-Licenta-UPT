@@ -1,0 +1,202 @@
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+asim -O5 +access +r +m+InstructionMemory_TB InstructionMemory_TB Behavioral
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 6654 kB (elbread=427 elab2=6088 kernel=139 sdf=0)
+# KERNEL: ASDB file was created in location C:\My_Designs\licenta\licenta\src\wave.asdb
+#  19:44, joi, 7 septembrie 2023
+#  Simulation has been initialized
+# VSIM: 4 object(s) traced.
+# Waveform file 'untitled.awc' connected to 'C:/My_Designs/licenta/licenta/src/wave.asdb'.
+run 100ns
+# KERNEL: stopped at time: 100 ns
+endsim
+# VSIM: Simulation has finished.
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+asim -O5 +access +r +m+Registers_TB Registers_TB Behavioral
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 6593 kB (elbread=427 elab2=6027 kernel=139 sdf=0)
+# KERNEL: ASDB file was created in location C:\My_Designs\licenta\licenta\src\wave.asdb
+#  19:44, joi, 7 septembrie 2023
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'C:/My_Designs/licenta/licenta/src/wave.asdb'.
+# Warning: WAVEFORM: Object matching /InstructionMemory_TB/tb_clk not found in C:/My_Designs/licenta/licenta/src/wave.asdb.
+# Warning: WAVEFORM: Object matching /InstructionMemory_TB/tb_address not found in C:/My_Designs/licenta/licenta/src/wave.asdb.
+# Warning: WAVEFORM: Object matching /InstructionMemory_TB/tb_instruction not found in C:/My_Designs/licenta/licenta/src/wave.asdb.
+# Warning: WAVEFORM: Object matching /InstructionMemory_TB/tb_memory not found in C:/My_Designs/licenta/licenta/src/wave.asdb.
+# VSIM: 8 object(s) traced.
+run 100ns
+# KERNEL: stopped at time: 100 ns
+endsim
+# VSIM: Simulation has finished.
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+asim -O5 +access +r +m+DataMemory_TB DataMemory_TB Behavioral
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 9471 kB (elbread=427 elab2=8904 kernel=139 sdf=0)
+# KERNEL: ASDB file was created in location C:\My_Designs\licenta\licenta\src\wave.asdb
+#  19:45, joi, 7 septembrie 2023
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'C:/My_Designs/licenta/licenta/src/wave.asdb'.
+# Warning: WAVEFORM: Object matching /Registers_TB/tb_clk not found in C:/My_Designs/licenta/licenta/src/wave.asdb.
+# Warning: WAVEFORM: Object matching /Registers_TB/tb_read_reg1 not found in C:/My_Designs/licenta/licenta/src/wave.asdb.
+# Warning: WAVEFORM: Object matching /Registers_TB/tb_read_reg2 not found in C:/My_Designs/licenta/licenta/src/wave.asdb.
+# Warning: WAVEFORM: Object matching /Registers_TB/tb_write_reg not found in C:/My_Designs/licenta/licenta/src/wave.asdb.
+# Warning: WAVEFORM: Object matching /Registers_TB/tb_write_data not found in C:/My_Designs/licenta/licenta/src/wave.asdb.
+# Warning: WAVEFORM: Object matching /Registers_TB/tb_reg_write_enable not found in C:/My_Designs/licenta/licenta/src/wave.asdb.
+# Warning: WAVEFORM: Object matching /Registers_TB/tb_read_data1 not found in C:/My_Designs/licenta/licenta/src/wave.asdb.
+# Warning: WAVEFORM: Object matching /Registers_TB/tb_read_data2 not found in C:/My_Designs/licenta/licenta/src/wave.asdb.
+# VSIM: 6 object(s) traced.
+run 100ns
+# KERNEL: stopped at time: 100 ns
+endsim
+# VSIM: Simulation has finished.
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+asim -O5 +access +r +m+ALU_Testbench ALU_Testbench tb_arch
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 5568 kB (elbread=427 elab2=5002 kernel=139 sdf=0)
+# KERNEL: ASDB file was created in location C:\My_Designs\licenta\licenta\src\wave.asdb
+#  19:45, joi, 7 septembrie 2023
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'C:/My_Designs/licenta/licenta/src/wave.asdb'.
+# Warning: WAVEFORM: Object matching /DataMemory_TB/tb_clk not found in C:/My_Designs/licenta/licenta/src/wave.asdb.
+# Warning: WAVEFORM: Object matching /DataMemory_TB/tb_address not found in C:/My_Designs/licenta/licenta/src/wave.asdb.
+# Warning: WAVEFORM: Object matching /DataMemory_TB/tb_write_data not found in C:/My_Designs/licenta/licenta/src/wave.asdb.
+# Warning: WAVEFORM: Object matching /DataMemory_TB/tb_mem_write_enable not found in C:/My_Designs/licenta/licenta/src/wave.asdb.
+# Warning: WAVEFORM: Object matching /DataMemory_TB/tb_read_data not found in C:/My_Designs/licenta/licenta/src/wave.asdb.
+# Warning: WAVEFORM: Object matching /DataMemory_TB/tb_mem_read_enable not found in C:/My_Designs/licenta/licenta/src/wave.asdb.
+# VSIM: 5 object(s) traced.
+run 100ns
+# KERNEL: stopped at time: 100 ns
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+endsim
+# VSIM: Simulation has finished.
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+asim -O5 +access +r +m+RISC_V_Processor_Testbench RISC_V_Processor_Testbench tb_arch
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 9552 kB (elbread=427 elab2=8985 kernel=139 sdf=0)
+# KERNEL: ASDB file was created in location C:\My_Designs\licenta\licenta\src\wave.asdb
+#  19:45, joi, 7 septembrie 2023
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'C:/My_Designs/licenta/licenta/src/wave.asdb'.
+# Warning: WAVEFORM: Object matching /ALU_Testbench/tb_op not found in C:/My_Designs/licenta/licenta/src/wave.asdb.
+# Warning: WAVEFORM: Object matching /ALU_Testbench/tb_a not found in C:/My_Designs/licenta/licenta/src/wave.asdb.
+# Warning: WAVEFORM: Object matching /ALU_Testbench/tb_b not found in C:/My_Designs/licenta/licenta/src/wave.asdb.
+# Warning: WAVEFORM: Object matching /ALU_Testbench/tb_result not found in C:/My_Designs/licenta/licenta/src/wave.asdb.
+# Warning: WAVEFORM: Object matching /ALU_Testbench/tb_zero not found in C:/My_Designs/licenta/licenta/src/wave.asdb.
+# VSIM: 25 object(s) traced.
+run 400ns
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 10 ns,  Iteration: 0,  Instance: /RISC_V_Processor_Testbench/uut/registers_unit,  Process: line__23.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 10 ns,  Iteration: 0,  Instance: /RISC_V_Processor_Testbench/uut/registers_unit,  Process: line__23.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 30 ns,  Iteration: 0,  Instance: /RISC_V_Processor_Testbench/uut/registers_unit,  Process: line__23.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 50 ns,  Iteration: 0,  Instance: /RISC_V_Processor_Testbench/uut/registers_unit,  Process: line__23.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 70 ns,  Iteration: 0,  Instance: /RISC_V_Processor_Testbench/uut/registers_unit,  Process: line__23.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 90 ns,  Iteration: 0,  Instance: /RISC_V_Processor_Testbench/uut/registers_unit,  Process: line__23.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 110 ns,  Iteration: 0,  Instance: /RISC_V_Processor_Testbench/uut/registers_unit,  Process: line__23.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 170 ns,  Iteration: 0,  Instance: /RISC_V_Processor_Testbench/uut/registers_unit,  Process: line__23.
+# KERNEL: stopped at time: 400 ns
+endsim
+# VSIM: Simulation has finished.

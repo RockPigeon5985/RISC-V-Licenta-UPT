@@ -1,0 +1,40 @@
+Active-HDL 13.0.376.8320 2023-09-07 19:45:40
+
+Elaboration top modules:
+Architecture                  tb_arch(RISC_V_Processor_Testbench)
+
+
+-------------------------------------------------------------------------------------------------------------
+Entity                     | Architecture | Library | Info | Compiler Version          | Compilation Options
+-------------------------------------------------------------------------------------------------------------
+RISC_V_Processor_Testbench | tb_arch      | licenta |      | 13.0.376.8320 (Windows64) | -O3
+RISC_V_Processor           | Behavioral   | licenta |      | 13.0.376.8320 (Windows64) | -O3
+InstructionMemory          | Behavioral   | licenta |      | 13.0.376.8320 (Windows64) | -O3
+Registers                  | Behavioral   | licenta |      | 13.0.376.8320 (Windows64) | -O3
+ALU                        | Behavioral   | licenta |      | 13.0.376.8320 (Windows64) | -O3
+DataMemory                 | Behavioral   | licenta |      | 13.0.376.8320 (Windows64) | -O3
+-------------------------------------------------------------------------------------------------------------
+
+-------------------------------------------------------------------------------------------------------------
+VHDL Package                              | Library | Info | Compiler Version          | Compilation Options
+-------------------------------------------------------------------------------------------------------------
+standard                                  | std     |      |                           | <unavailable>
+TEXTIO                                    | std     |      | 13.0.376.8320 (Windows64) |  -2019
+std_logic_1164                            | ieee    |      | 13.0.376.8320 (Windows64) |  -2008
+NUMERIC_STD                               | ieee    |      | 13.0.376.8320 (Windows64) |  -2008
+types_pkg                                 | licenta |      | 13.0.376.8320 (Windows64) | -O3
+-------------------------------------------------------------------------------------------------------------
+
+-------------------------------------------------------------------------------------------------------------
+Library                                   | Comment
+-------------------------------------------------------------------------------------------------------------
+ieee                                      | Standard IEEE packages library
+licenta                                   | None
+std                                       | Standard VHDL library
+-------------------------------------------------------------------------------------------------------------
+
+
+Simulation Options: asim -O5 +access +r +m+RISC_V_Processor_Testbench RISC_V_Processor_Testbench tb_arch
+
+
+The performance of simulation is reduced. Version Student Edition

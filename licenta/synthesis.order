@@ -1,0 +1,14 @@
+i<>.\src\1Bit_ALU.vhd
+i<>.\src\1Bit_Adder.vhd
+i<>.\src\InstructionFetchUnit.vhd
+i<>.\src\Memory.vhd
+i<>.\src\InstructionDecodeUnit.vhd
+i<>.\src\ExecutionUnit.vhd
+i<>.\src\ControlUnit.vhd
+i<>.\src\RegFile.vhd
+i<>.\src\InstructionMemory.vhd
+i<>.\src\Registers.vhd
+i<>.\src\DataMemory.vhd
+i<>.\src\Processor.vhd
+i<>.\src\types_pkg.vhd
+i<>.\src\ALU.vhd

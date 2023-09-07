@@ -1,0 +1,6 @@
+.\src\InstructionMemory.vhd
+.\src\Registers.vhd
+.\src\DataMemory.vhd
+.\src\Processor.vhd
+.\src\types_pkg.vhd
+.\src\ALU.vhd

@@ -1,0 +1,13 @@
+[Files List]
+C:\Aldec\Active-HDL-Student-Edition\vlib\std/src/standard.vhd=S
+C:\Aldec\Active-HDL-Student-Edition\vlib\std/src/textio.vhd=S
+C:\Aldec\Active-HDL-Student-Edition\vlib\ieee/src/std_logic_1164.vhdl=S
+C:\Aldec\Active-HDL-Student-Edition\vlib\ieee/src/std_logic_1164-body.vhdl=S
+C:\Aldec\Active-HDL-Student-Edition\vlib\ieee/src/numeric_std.vhdl=S
+C:\Aldec\Active-HDL-Student-Edition\vlib\ieee/src/numeric_std-body.vhdl=S
+C:\My_Designs\licenta\licenta/src/types_pkg.vhd=S
+C:\My_Designs\licenta\licenta/src/DataMemory.vhd=S
+C:\My_Designs\licenta\licenta/src/ALU.vhd=S
+C:\My_Designs\licenta\licenta/src/Registers.vhd=S
+C:\My_Designs\licenta\licenta/src/InstructionMemory.vhd=S
+C:\My_Designs\licenta\licenta/src/Processor.vhd=S
